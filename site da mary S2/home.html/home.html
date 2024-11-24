@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURAFLIX</title>
+    <style>
+        /* Definindo o estilo básico da página */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Estilo para o nome ALURAFLIX */
+        .title {
+            font-size: 5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            display: inline-block;
+            text-align: center;
+            animation: rgb-led 3s infinite alternate;
+        }
+
+        /* Animação RGB */
+        @keyframes rgb-led {
+            0% {
+                color: red;
+            }
+            25% {
+                color: green;
+            }
+            50% {
+                color: blue;
+            }
+            75% {
+                color: yellow;
+            }
+            100% {
+                color: purple;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="title">ALURAFLIX</div>
+
+</body>
+</html>
